@@ -43,7 +43,6 @@ html {
 }
 
 .bouton-resto {
-    border: solid;
     border-color: black;
     background: linear-gradient(to top, #9356DC, #FF79DA);
     border-radius: 25px;
@@ -63,10 +62,10 @@ html {
     .bouton-fonctionnement {
         display: flex;
         background-color: #F7F7F7;
-
+        font-weight: bold;
         height: 72px;
         margin-top: 25px;
-        border-radius: 28px 38px 28px 10px;
+        border-radius: 20px;
         box-shadow: 1px 1px 3px rgb(184, 184, 184);
 
         :hover {
@@ -75,7 +74,7 @@ html {
         }
 
         p {
-            padding: 28px;
+            padding: 28px 38px 28px 21px;
             width: 100%;
             margin: 0;
         }
@@ -133,6 +132,8 @@ footer {
     .mini-logo {
         display: flex;
         justify-content: left;
+        margin-bottom: 16px;
+        color: white;
 
         img {
             height: 27px;
@@ -168,12 +169,12 @@ footer {
             width: 100%;
             display: flex;
             flex-direction: row;
-            justify-content: space-between;
+            margin-left: 36px;
         }
 
         article {
             margin-right: 24px;
-            width: 25%;
+            width: 30%;
         }
 
         h2 {
@@ -182,10 +183,17 @@ footer {
     }
 
     .Restaurants {
+        width: fit-content;
         display: flex;
         flex-direction: row;
         flex-wrap: wrap;
         .liste-carte-restaurant{width: 100%;
             display: flex;}
+        .carte-restaurant{width: 25%;
+        margin-left: 26px;}
     }
+    footer{ul{display: flex;
+        flex-direction: row-reverse;
+    justify-content: space-around;}
+}
 }
