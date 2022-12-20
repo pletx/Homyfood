@@ -1,0 +1,41 @@
+.logo{
+    display: flex;
+    width: 100%; 
+    justify-content: center;
+    img{
+    width: 162px;
+    padding: 20px;
+   }
+}
+.bouton-ville{
+    display: flex;
+    justify-content: center;
+    background-color: #EAEAEA;
+    padding: 20px;
+}
+.text-aceuille{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+.bouton-resto{
+    border: solid;
+    border-color: black;
+    background-color:#9356DC;
+    border-radius: 25px;
+    display: flex;
+    width: fit-content;
+    p{padding: 15px;
+        margin: 0;
+        color: #EAEAEA;}
+}
+.bouton-fonctionnement{
+    border: solid;
+    margin-top: 25px;
+    :hover{
+        background-color: #F5EDFF;
+
+    }
+}
