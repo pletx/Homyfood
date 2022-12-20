@@ -1,3 +1,7 @@
+html{a
+    {text-decoration: none;
+    color: black;}
+    }
 .logo{
     display: flex;
     width: 100%; 
@@ -13,6 +17,7 @@
     background-color: #EAEAEA;
     padding: 20px;
 }
+
 .text-aceuille{
     display: flex;
     flex-direction: column;
@@ -32,10 +37,59 @@
         color: #EAEAEA;}
 }
 .bouton-fonctionnement{
-    border: solid;
+    display: flex;
+    background-color: #ffffff;
     margin-top: 25px;
-    :hover{
-        background-color: #F5EDFF;
+    border-radius: 20px;
+    box-shadow: 1px 1px 3px rgb(184, 184, 184);
 
+    :hover{
+        border-radius: 20px;
+        background-color: #F5EDFF;
     }
+    p{padding: 28px;
+        width: 100%;
+        margin: 0;}
+    .cerle{
+        display: flex;
+        border-radius: 50%;
+        width: 24px;
+        height: 24px;
+        justify-content: center;
+        background-color: #9356DC;
+        margin: 28px 0 28px -12px;
+    }
+}
+.Restaurants{
+width:100%;
+padding: 17px;
+    .carte-restaurant{
+        border-radius: 15px;
+        height: 231px;
+        margin-bottom:18px ;
+        box-shadow: 0px 4px 15px 0px rgba(0, 0, 0, 0.1);
+    }
+    img{
+        width: 100%;
+        height: 70%;
+        object-fit: cover;
+        border-radius: 15px;
+    }
+    .info{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;}
+    h3{
+        margin: 0;
+        padding: 0;}
+}
+footer{
+    background-color: #353535;
+    .mini-logo{display: flex;
+        justify-content: left;
+        img{height: 27px;
+            width: 137px;}}
+    li{color: #ffffff;
+    list-style-type: none;
+    margin-top: 12px;}
 }
