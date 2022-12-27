@@ -4,7 +4,8 @@
   "description": "code sass p4",
   "main": "index.js",
   "scripts": {
-    "sass": "sass --watch ./main.scss:.css/style.css"
+
+    "sass": "sass --watch ./main.scss:./css/style.css"
   },
   "repository": {
     "type": "git",

@@ -1,0 +1,319 @@
+html {
+  font-family: "Roboto";
+  padding: 0;
+}
+html a {
+  text-decoration: none;
+  color: black;
+}
+
+body {
+  margin: 0;
+}
+
+.logo {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.logo i {
+  float: left;
+}
+.logo img {
+  width: 162px;
+  padding: 20px 0px 20px 0px;
+}
+
+.bouton-ville {
+  display: flex;
+  justify-content: center;
+  background-color: #EAEAEA;
+  padding: 20px;
+  text-decoration: none;
+}
+.bouton-ville input {
+  border: hidden;
+  background-color: #EAEAEA;
+}
+.bouton-ville i {
+  margin-right: 5px;
+}
+
+.text-aceuille {
+  display: flex;
+  text-align: center;
+  flex-direction: column;
+  align-items: center;
+  background-color: #F2F2F2;
+  padding-bottom: 57px;
+}
+.text-aceuille h2 {
+  margin: 39px 58px 0 42px;
+}
+.text-aceuille p {
+  padding: 0px 26px 27px 8px;
+  margin: 0;
+}
+
+.bouton-rose {
+  display: flex;
+  border-color: black;
+  background: linear-gradient(to top, #9356DC, #FF79DA);
+  border-radius: 25px;
+  width: fit-content;
+  align-self: center;
+}
+.bouton-rose p {
+  padding: 15px;
+  margin: 0;
+  color: #EAEAEA;
+}
+
+.fonctionnement {
+  padding: 48px 20px 68px 20px;
+}
+.fonctionnement .bouton-fonctionnement {
+  display: flex;
+  align-items: center;
+  background-color: #F7F7F7;
+  font-weight: bold;
+  height: 72px;
+  font-size: 16px;
+  margin-top: 25px;
+  border-radius: 20px;
+  box-shadow: 1px 1px 3px rgb(184, 184, 184);
+}
+.fonctionnement .bouton-fonctionnement i {
+  align-self: center;
+  padding: 25px;
+}
+.fonctionnement .bouton-fonctionnement p {
+  width: 100%;
+  margin: 0;
+}
+.fonctionnement .bouton-fonctionnement :hover {
+  border-radius: 20px;
+  background-color: #F5EDFF;
+  box-shadow: 7px 7px 15px rgba(0, 0, 0, 0.13);
+}
+.fonctionnement .bouton-fonctionnement :hover i {
+  color: #9356DC;
+}
+.fonctionnement .bouton-fonctionnement .cerle {
+  display: flex;
+  border-radius: 50%;
+  width: 24px;
+  height: 24px;
+  justify-content: center;
+  background-color: #9356DC;
+  margin: 28px 0 28px -12px;
+  color: white;
+}
+
+.Restaurants {
+  padding: 0 17px;
+  width: auto;
+  padding-top: 54px;
+  background-color: #F7F7F7;
+}
+.Restaurants .carte-restaurant {
+  position: relative;
+  display: flex;
+  border-radius: 15px;
+  height: 231px;
+  margin-bottom: 18px;
+  box-shadow: 0px 4px 15px 0px rgba(0, 0, 0, 0.1);
+}
+.Restaurants .carte-restaurant img {
+  width: 100%;
+  height: 70%;
+  object-fit: cover;
+  border-radius: 15px;
+}
+.Restaurants .carte-restaurant .info {
+  display: flex;
+  flex-direction: column;
+  margin-left: 13px;
+}
+.Restaurants .carte-restaurant p {
+  margin-top: 5px;
+  padding: 0;
+}
+.Restaurants .carte-restaurant p i {
+  float: right;
+  margin-right: 25px;
+  font-size: 25px;
+}
+.Restaurants .nouveau {
+  display: flex;
+  position: absolute;
+  width: 80px;
+  height: 29px;
+  color: green;
+  font-weight: 500;
+  margin: 14px;
+  box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.15);
+  border-radius: 2px;
+  background-color: #99E2D0;
+  right: -0.18px;
+  align-items: center;
+  justify-content: center;
+}
+.Restaurants h3 {
+  margin: 0;
+  padding: 0;
+}
+
+footer {
+  background-color: #353535;
+  padding-top: 22px;
+  padding-bottom: 33px;
+}
+footer h2 {
+  font-family: "Shrikhand";
+  margin: 0px;
+  color: white;
+  font-size: 18px;
+  font-weight: 700;
+  font-style: italic;
+}
+footer h2 img {
+  height: 27px;
+  width: 137px;
+}
+footer ul {
+  margin: 0;
+}
+footer ul li {
+  color: #ffffff;
+  list-style-type: none;
+  margin-top: 7px;
+}
+footer ul li i {
+  margin-right: 11px;
+}
+
+.image-aceuille {
+  width: 100%;
+}
+.image-aceuille img {
+  object-fit: cover;
+}
+
+.section-choix {
+  max-width: 1055px;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  border-radius: 40px;
+  margin-top: -32px;
+  padding: 32px 13px 40px 13px;
+  background-color: #F7F7F7;
+}
+.section-choix h2 {
+  margin: 0;
+}
+.section-choix h2 i {
+  float: right;
+  margin-right: 40px;
+  size: 12px;
+}
+
+.choix-menu {
+  margin-top: 12px;
+  box-shadow: 0px 4.01149px 15.0431px rgba(0, 0, 0, 0.1);
+  border-radius: 15px;
+  padding: 12px;
+  max-width: 634px;
+}
+.choix-menu p {
+  margin: 0;
+}
+.choix-menu h3 {
+  margin: 0;
+}
+.choix-menu .prix {
+  float: right;
+  font-weight: 700;
+  margin-right: 19px;
+}
+
+.section-bouton {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-bottom: 40px;
+  background-color: #F7F7F7;
+}
+
+.type-plats {
+  border-bottom: solid;
+  border-color: #99E2D0;
+  width: 9%;
+}
+.type-plats h3 {
+  margin: 0;
+  margin-top: 40px;
+}
+
+@media screen and (min-width: 792px) {
+  .bouton-ville {
+    display: flex;
+    justify-content: center;
+    background-color: #EAEAEA;
+    padding-top: 16px;
+    padding-bottom: 16px;
+  }
+  .text-aceuille h2 {
+    font-size: 40px;
+    font-weight: 700;
+    margin-bottom: 18px;
+  }
+  .fonctionnement {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .fonctionnement .groupe-bouton-fonctionnement {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    margin-left: 36px;
+  }
+  .fonctionnement article {
+    margin-right: 24px;
+    width: 30%;
+  }
+  .fonctionnement h2 {
+    width: 100%;
+  }
+  .Restaurants {
+    width: fit-content;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+  }
+  .Restaurants .liste-carte-restaurant {
+    width: 100%;
+    display: flex;
+  }
+  .Restaurants .carte-restaurant {
+    width: 25%;
+    margin-left: 26px;
+  }
+  footer {
+    margin-top: 7px;
+  }
+  footer ul {
+    padding-right: 40px;
+    display: flex;
+    flex-direction: row-reverse;
+    padding: 20px;
+  }
+  footer ul li {
+    margin-right: 40px;
+    margin-top: 0px;
+  }
+}
+
+/*# sourceMappingURL=style.css.map */

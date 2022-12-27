@@ -1,5 +1,6 @@
 html {
-    font-style: "Roboto";
+    font-family: "Roboto";
+    padding: 0;
 
     a {
         text-decoration: none;
@@ -7,18 +8,23 @@ html {
     }
 }
 
+body {
+    margin: 0;
+}
+
 .logo {
+    width: 100%;
     display: flex;
-    width: fit-content;
     justify-content: center;
     align-items: center;
-    margin-left:24px ;
-    
-    i{float: left;}
+
+    i {
+        float: left;
+    }
 
     img {
         width: 162px;
-        padding: 20px 20px 20px 65px;
+        padding: 20px 0px 20px 0px;
     }
 }
 
@@ -27,17 +33,23 @@ html {
     justify-content: center;
     background-color: #EAEAEA;
     padding: 20px;
+    text-decoration: none;
+
+    input {
+        border: hidden;
+        background-color: #EAEAEA;
+    }
 
     i {
-        margin-right: 17px;
+        margin-right: 5px;
     }
+
 }
 
 .text-aceuille {
     display: flex;
     text-align: center;
     flex-direction: column;
-    justify-content: center;
     align-items: center;
     background-color: #F2F2F2;
     padding-bottom: 57px;
@@ -52,12 +64,14 @@ html {
     }
 }
 
-.bouton-resto {
+.bouton-rose {
+    display: flex;
     border-color: black;
     background: linear-gradient(to top, #9356DC, #FF79DA);
     border-radius: 25px;
-    display: flex;
     width: fit-content;
+    align-self: center;
+
 
     p {
         padding: 15px;
@@ -75,6 +89,7 @@ html {
         background-color: #F7F7F7;
         font-weight: bold;
         height: 72px;
+        font-size: 16px;
         margin-top: 25px;
         border-radius: 20px;
         box-shadow: 1px 1px 3px rgb(184, 184, 184);
@@ -93,6 +108,11 @@ html {
         :hover {
             border-radius: 20px;
             background-color: #F5EDFF;
+            box-shadow: 7px 7px 15px rgb(0 0 0 / 13%);
+
+            i {
+                color: #9356DC;
+            }
         }
 
         .cerle {
@@ -143,6 +163,7 @@ html {
             i {
                 float: right;
                 margin-right: 25px;
+                font-size: 25px;
             }
         }
     }
@@ -204,16 +225,81 @@ footer {
         }
     }
 }
-///page resto
-.image-aceuille{
- img{   width: 100%;}
-}
-.choix-menu{
-    border:solid;
-    border-radius: 15px;
-    h3{margin: 0;}
-    p{margin: 0;}
 
+///page resto
+.image-aceuille {
+    width: 100%;
+
+    img {
+        object-fit: cover;
+    }
+}
+
+.section-choix {
+    max-width: 1055px;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+
+    border-radius: 40px;
+    margin-top: -32px;
+    padding: 32px 13px 40px 13px;
+    background-color: #F7F7F7;
+
+    h2 {
+        margin: 0;
+
+        i {
+            float: right;
+            margin-right: 40px;
+            size: 12px;
+
+        }
+    }
+}
+
+.choix-menu {
+    margin-top: 12px;
+    box-shadow: 0px 4.01149px 15.0431px rgba(0, 0, 0, 0.1);
+    border-radius: 15px;
+    padding: 12px;
+    max-width: 634px;
+
+    p {
+        margin: 0;
+    }
+
+    h3 {
+        margin: 0;
+    }
+
+    .prix {
+        float: right;
+        font-weight: 700;
+        margin-right: 19px;
+    }
+
+
+}
+
+.section-bouton {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-bottom: 40px;
+    background-color: #F7F7F7;
+
+}
+
+.type-plats {
+    border-bottom: solid;
+    border-color: #99E2D0;
+    width: 9%;
+
+    h3 {
+        margin: 0;
+        margin-top: 40px;
+    }
 }
 
 @media screen and (min-width:792px) {
@@ -290,4 +376,7 @@ footer {
         }
 
     }
+
+    ///page resto
+
 }
