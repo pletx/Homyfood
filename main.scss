@@ -1,0 +1,371 @@
+@import "Composants/bouton-ville";
+
+html {
+    font-family: "Roboto";
+    padding: 0;
+
+    a {
+        text-decoration: none;
+        color: black;
+    }
+}
+
+body {
+    margin: 0;
+}
+
+.logo {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    i {
+        float: left;
+    }
+
+    img {
+        width: 162px;
+        padding: 20px 0px 20px 0px;
+    }
+}
+
+.text-aceuille {
+    display: flex;
+    text-align: center;
+    flex-direction: column;
+    align-items: center;
+    background-color: #F2F2F2;
+    padding-bottom: 57px;
+
+    h2 {
+        margin: 39px 58px 0 42px;
+    }
+
+    p {
+        padding: 0px 26px 27px 8px;
+        margin: 0;
+    }
+}
+
+@import"Composants/bouton-rose";
+
+.fonctionnement {
+    padding: 48px 20px 68px 20px;
+
+    .bouton-fonctionnement {
+        position: relative;
+        display: flex;
+        align-items: center;
+        background-color: #F7F7F7;
+        font-weight: bold;
+        height: 72px;
+        font-size: 16px;
+        margin-top: 25px;
+        border-radius: 20px;
+        box-shadow: 1px 1px 3px rgb(184, 184, 184);
+
+        :hover {
+            background-color: #F5EDFF;
+            border-radius: 20px;
+            box-shadow: 3px 3px 7px rgb(184, 184, 184);
+        }
+
+        i {
+            align-self: center;
+            padding: 25px;
+        }
+
+        p {
+            width: 100%;
+            height: 100%;
+            margin: 0;
+
+        }
+
+        .cerle {
+            position: absolute;
+            display: flex;
+            border-radius: 50%;
+            width: 24px;
+            height: 24px;
+            justify-content: center;
+            background-color: #9356DC;
+            margin: 28px 0 28px -12px;
+            color: white;
+
+        }
+
+    }
+}
+
+.Restaurants {
+    padding: 0 17px;
+    width: auto;
+    padding-top: 54px;
+    background-color: #F7F7F7;
+
+    .carte-restaurant {
+        position: relative;
+        display: flex;
+        border-radius: 15px;
+        height: 231px;
+        margin-bottom: 18px;
+        box-shadow: 0px 4px 15px 0px rgba(0, 0, 0, 0.1);
+
+        img {
+            width: 100%;
+            height: 70%;
+            object-fit: cover;
+            border-radius: 15px;
+        }
+
+        .info {
+            display: flex;
+            flex-direction: column;
+            margin-left: 13px;
+        }
+
+        p {
+            margin-top: 5px;
+            padding: 0;
+
+            i {
+                display: flex;
+                position: relative;
+                float: right;
+                margin-right: 25px;
+                font-size: 25px;
+                .animation-coeur {
+                    position: absolute;
+                    transform: scale(0);}
+                &:hover {
+                    .animation-coeur {
+                        position: absolute;
+                        align-self: center;
+                        transform: scale(1.15);
+                        transition-property: transform;
+                        transition-duration: 500ms;
+                        color:  #FF79DA;
+
+                    }
+                }
+            }
+
+
+        }
+    }
+}
+
+
+.nouveau {
+    display: flex;
+    position: absolute;
+    width: 80px;
+    height: 29px;
+    color: green;
+    font-weight: 500;
+    margin: 14px;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.15);
+    border-radius: 2px;
+    background-color: #99E2D0;
+    right: -0.18px;
+    align-items: center;
+    justify-content: center;
+}
+
+h3 {
+    margin: 0;
+    padding: 0;
+}
+
+
+
+footer {
+    background-color: #353535;
+    padding-top: 22px;
+    padding-bottom: 33px;
+
+    h2 {
+        font-family: "Shrikhand";
+        margin: 0px;
+        color: white;
+        font-size: 18px;
+        font-weight: 700;
+        font-style: italic;
+
+        img {
+            height: 27px;
+            width: 137px;
+        }
+    }
+
+    ul {
+        margin: 0;
+
+        li {
+            color: #ffffff;
+            list-style-type: none;
+            margin-top: 7px;
+
+            i {
+                margin-right: 11px;
+            }
+        }
+    }
+}
+
+///page resto
+.image-aceuille {
+    width: 100%;
+
+    img {
+        object-fit: cover;
+    }
+}
+
+.section-choix {
+    max-width: 1055px;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+
+    border-radius: 40px;
+    margin-top: -32px;
+    padding: 32px 13px 40px 13px;
+    background-color: #F7F7F7;
+
+    h2 {
+        margin: 0;
+
+        i {
+            float: right;
+            margin-right: 40px;
+            size: 12px;
+
+        }
+    }
+}
+
+.choix-menu {
+    margin-top: 12px;
+    box-shadow: 0px 4.01149px 15.0431px rgba(0, 0, 0, 0.1);
+    border-radius: 15px;
+    padding: 12px;
+    max-width: 634px;
+
+    p {
+        margin: 0;
+    }
+
+    h3 {
+        margin: 0;
+    }
+
+    .prix {
+        float: right;
+        font-weight: 700;
+        margin-right: 19px;
+    }
+
+
+}
+
+.section-bouton {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-bottom: 40px;
+    background-color: #F7F7F7;
+
+}
+
+.type-plats {
+    border-bottom: solid;
+    border-color: #99E2D0;
+    width: 9%;
+
+    h3 {
+        margin: 0;
+        margin-top: 40px;
+    }
+}
+
+@media screen and (min-width:792px) {
+    .bouton-ville {
+        display: flex;
+        justify-content: center;
+        background-color: #EAEAEA;
+        padding-top: 16px;
+        padding-bottom: 16px;
+    }
+
+    .text-aceuille {
+        h2 {
+            font-size: 40px;
+            font-weight: 700;
+            margin-bottom: 18px;
+        }
+    }
+
+    .fonctionnement {
+        display: flex;
+        flex-wrap: wrap;
+
+
+        .groupe-bouton-fonctionnement {
+            width: 100%;
+            display: flex;
+            flex-direction: row;
+            margin-left: 36px;
+        }
+
+        article {
+            margin-right: 24px;
+            width: 30%;
+        }
+
+        h2 {
+            width: 100%;
+        }
+    }
+
+    .Restaurants {
+        width: fit-content;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+
+        .liste-carte-restaurant {
+            width: 100%;
+            display: flex;
+        }
+
+        .carte-restaurant {
+            width: 25%;
+            margin-left: 26px;
+        }
+    }
+
+    footer {
+        margin-top: 7px;
+
+        ul {
+            padding-right: 40px;
+            display: flex;
+            flex-direction: row-reverse;
+            padding: 20px;
+
+            li {
+                margin-right: 40px;
+                margin-top: 0px;
+
+            }
+
+        }
+
+    }
+
+    ///page resto
+
+}
