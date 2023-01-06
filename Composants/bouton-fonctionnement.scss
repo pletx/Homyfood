@@ -1,0 +1,55 @@
+.fonctionnement {
+    padding: 48px 20px 68px 20px;
+
+    i {
+        align-self: center;
+        padding: 25px;
+    }
+
+    .bouton-fonctionnement {
+        position: relative;
+        display: flex;
+        align-items: center;
+        background-color: #F7F7F7;
+        font-weight: bold;
+        font-size: 16px;
+        margin-top: 25px;
+        border-radius: 20px;
+        box-shadow: 1px 1px 3px rgb(184, 184, 184);
+        cursor: pointer;
+        i{color:gray}
+        :hover {
+            
+            background-color: #F5EDFF;
+            border-radius: 20px;
+            box-shadow: 3px 3px 7px rgb(184, 184, 184);
+            i{color: #9356DC;
+                
+            box-shadow: 0 0 0 ;}
+        }
+
+        p {
+            width: 100%;
+            margin: 0;
+            padding: 0;
+            align-self: center;
+
+        }
+
+        .cerle {
+            position: absolute;
+            display: flex;
+            border-radius: 50%;
+            width: 24px;
+            height: 24px;
+            justify-content: center;
+            background-color: #9356DC;
+            margin: 28px 0 28px -12px;
+            color: white;
+            animation: 1s rotation;
+
+        }
+
+
+    }
+}

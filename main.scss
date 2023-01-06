@@ -1,121 +1,11 @@
+@import"Pages/loader";
 @import "Composants/bouton-ville";
 @import"Pages/style-page-aceuille";
 @import"Composants/bouton-rose";
-
-.fonctionnement {
-    padding: 48px 20px 68px 20px;
-
-    i {
-        align-self: center;
-        padding: 25px;
-    }
-
-    .bouton-fonctionnement {
-        position: relative;
-        display: flex;
-        align-items: center;
-        background-color: #F7F7F7;
-        font-weight: bold;
-        font-size: 16px;
-        margin-top: 25px;
-        border-radius: 20px;
-        box-shadow: 1px 1px 3px rgb(184, 184, 184);
-
-        :hover {
-            background-color: #F5EDFF;
-            border-radius: 20px;
-            box-shadow: 3px 3px 7px rgb(184, 184, 184);
-            i{color: #9356DC;}
-        }
-
-        p {
-            width: 100%;
-            
-            margin: 0;
-            padding: 0;
-            align-self: center;
-
-        }
-
-        .cerle {
-            position: absolute;
-            display: flex;
-            border-radius: 50%;
-            width: 24px;
-            height: 24px;
-            justify-content: center;
-            background-color: #9356DC;
-            margin: 28px 0 28px -12px;
-            color: white;
-
-        }
-
-
-    }
-}
-
-.Restaurants {
-    padding: 0 17px;
-    width: auto;
-    padding-top: 54px;
-    background-color: #F7F7F7;
-
-    .carte-restaurant {
-        
-        transition: all 2s;
-        position: relative;
-        border-radius: 15px;
-        height: 231px;
-        margin-bottom: 18px;
-        box-shadow: 0px 4px 15px 0px rgba(0, 0, 0, 0.1);
-        img {
-            width: 100%;
-            height: 70%;
-            object-fit: cover;
-            border-radius: 15px;
-        }
-
-        .info {
-            display: flex;
-            flex-direction: column;
-            margin-left: 13px;
-            @import"Composants/coeur";
-        }
-
-        
-
-        p {
-            margin-top: 5px;
-            padding: 0;
-            
-        }
-    }
-}
-
-
-.nouveau {
-    display: flex;
-    position: absolute;
-    width: 80px;
-    height: 29px;
-    color: green;
-    font-weight: 500;
-    margin: 14px;
-    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.15);
-    border-radius: 2px;
-    background-color: #99E2D0;
-    right: -0.18px;
-    align-items: center;
-    justify-content: center;
-}
-
-h3 {
-    margin: 0;
-    padding: 0;
-}
-
-
-
+@import"Composants/choix-menu";
+@import"Pages/Cartes-Restaurants";
+@import"Composants/bouton-fonctionnement";
+@import"Composants/coeur";
 
 
 ///page resto
@@ -143,14 +33,13 @@ h3 {
     margin-top: -32px;
     padding: 32px 13px 40px 13px;
     background-color: #F7F7F7;
-
+    a{i{display: flex;}}
     h2 {
         margin: 0;
-        @import"Composants/coeur";
     }
 }
 
-@import"Composants/choix-menu";
+
 
 
 
@@ -158,8 +47,10 @@ h3 {
     display: flex;
     align-items: center;
     justify-content: center;
-    padding-bottom: 40px;
+    padding: 40px 0 40px 0;
     background-color: #F7F7F7;
+    
+    
 
 }
 

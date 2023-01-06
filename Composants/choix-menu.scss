@@ -1,28 +1,30 @@
+@keyframes apparition {
+    from { transform: translateY(50%); 
+    opacity: 0;}
+    to   { transform: translateY(0%);
+    opacity: 1; }
+  }
+  
 .choix-menu {
+    
+    animation: apparition 3s;
     position: relative;
     display: flex;
     margin-top: 12px;
     box-shadow: 0px 4.01149px 15.0431px rgba(0, 0, 0, 0.1);
-    border-radius: 15px;
-    max-width: 634px;
-    
-        
+    border-radius: 15px;   
     
     .check {
         display: flex;
         display: none;
         align-content: center;
         background-color:  #99E2D0;
-        width: 15%;
+        width: 100px;
         float: right;
         border-radius: 0 15px 15px 0;
         align-content: center;
         justify-content: center;
-        @keyframes re-slide {
-            from { width:15%; }
-            to   { width:0; }
-          }
-          animation: 0.25s re-slide;
+       
         .cerle{height: fit-content;
         align-self: center;
         background-color: white;
@@ -41,9 +43,15 @@
             transition: transform 1s;
             @keyframes slide {
                 from { width:0; }
-                to   { width:15%; }
+                to   { width: 100px; }
+              
+              }
+              @keyframes rotation {
+                from { transform:rotate(180°); }
+                to   { transform:rotate(0) }
               }
               animation: 0.25s slide;
+              
               
         }
     }
@@ -56,21 +64,28 @@
     .info-plats {
         width: 100%;
         margin: 12px;
+        overflow: hidden;
+        white-space: nowrap;
+        
+
     }
 
-    p {
+    p {text-overflow: ellipsis;
+        overflow: hidden;
         margin-top: 5px;
         width: 100%;
     }
 
-    h3 {
+    h3 {text-overflow: ellipsis;
+        overflow: hidden;
         margin: 0;
     }
 
     .prix {
         float: right;
         font-weight: 700;
-        margin-right: 19px;
+        margin: 12px 19px 12px 12px;
+        padding-top: 39px;
     }
 
 

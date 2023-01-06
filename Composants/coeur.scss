@@ -4,6 +4,7 @@
     float: right;
     margin-right: 25px;
     font-size: 25px;
+    cursor: pointer;
 
     .animation-coeur {
         position: absolute;
@@ -19,6 +20,7 @@
             transition-property: transform;
             transition-duration: 500ms;
             color: #FF79DA;
+            
 
         }
 
