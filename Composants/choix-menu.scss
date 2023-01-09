@@ -1,43 +1,69 @@
 @keyframes apparition {
-    from { transform: translateY(50%); 
-    opacity: 0;}
-    to   { transform: translateY(0%);
-    opacity: 1; }
-  }
-.lien-menu{opacity: 0;
-    @for $i from 1 through 13{
-        &:nth-child(#{$i}){ animation-delay:100ms*$i;}
+    from {
+        transform: translateY(50%);
+        opacity: 0;
     }
-   animation: apparition 1s forwards;}
+
+    to {
+        transform: translateY(0%);
+        opacity: 1;
+    }
+}
+@keyframes slide {
+    from {
+        width: 0;
+    }
+
+    to {
+        width: 100px;
+    }
+
+}
+.lien-menu {
+    opacity: 0;
+
+    @for $i from 1 through 13 {
+        &:nth-child(#{$i}) {
+            animation-delay: 100ms*$i;
+        }
+    }
+
+    animation: apparition 1s forwards;
+}
 
 .choix-menu {
-    
- 
+
+
     position: relative;
     display: flex;
     margin-top: 12px;
     box-shadow: 0px 4.01149px 15.0431px rgba(0, 0, 0, 0.1);
-    border-radius: 15px;   
-    
+    border-radius: 15px;
+
     .check {
         display: flex;
         display: none;
         align-content: center;
-        background-color:  #99E2D0;
+        background-color: #99E2D0;
         width: 100px;
         float: right;
         border-radius: 0 15px 15px 0;
         align-content: center;
         justify-content: center;
-       
-        .cerle{height: fit-content;
-        align-self: center;
-        background-color: white;
+
+        .cerle {
+            height: fit-content;
+            align-self: center;
+            background-color: white;
             border-radius: 50%;
             height: fit-content;
-        padding: 0 2px 0 2px;}
-        i{
-    color: #99E2D0;}
+            padding:2px;
+            animation: 1s rotation;
+        }
+
+        i {
+            color: #99E2D0;
+        }
 
 
     }
@@ -46,14 +72,9 @@
         .check {
             display: flex;
             transition: transform 1s;
-            @keyframes slide {
-                from { width:0; }
-                to   { width: 100px; }
-              
-              }
-              animation: 0.25s slide;
-              
-              
+            animation: 0.25s slide;
+
+
         }
     }
 
@@ -67,17 +88,19 @@
         margin: 12px;
         overflow: hidden;
         white-space: nowrap;
-        
+
 
     }
 
-    p {text-overflow: ellipsis;
+    p {
+        text-overflow: ellipsis;
         overflow: hidden;
         margin-top: 5px;
         width: 100%;
     }
 
-    h3 {text-overflow: ellipsis;
+    h3 {
+        text-overflow: ellipsis;
         overflow: hidden;
         margin: 0;
     }
