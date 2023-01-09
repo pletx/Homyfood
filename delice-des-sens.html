@@ -4,8 +4,8 @@
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" type="text/css" href="scss/.css/style.css">
-    <link rel="stylesheet" type="text/css" href="scss/.css/fontawesome-free-6.2.0-web/css/all.css">
+    <link rel="stylesheet" type="text/css" href="scss/css/style.css">
+    <link rel="stylesheet" type="text/css" href="scss/css/fontawesome-free-6.2.0-web/css/all.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;700&display=swap" rel="stylesheet">
@@ -13,9 +13,9 @@
 </head>
 
 <header>
-    
+
     <div class="logo">
-        <i class="fa-solid fa-arrow-left"></i>
+        <a href="index.html"><i class="fa-solid fa-arrow-left"></i></a>
         <img src="Image/logo/ohmyfood.png" alt="logo">
     </div>
 </header>
@@ -25,72 +25,145 @@
         <img class="image-aceuille" src="Image/restaurants/louis-hansel-shotsoflouis-qNBGVyOCY8Q-unsplash.jpg" alt="">
         <section>
             <div class="section-choix">
-                <h2>Le délice des sens<i class="fa-regular fa-heart"></i></h2>
+                <h2>Le délice des sens<a><i class="fa-regular fa-heart coeur"> <i
+                                class="fa-solid fa-heart animation-coeur"></i> </i></a></h2>
                 <div class="type-plats">
-                    <h3>ENTREE</h3>
+                    <h3>ENTREES</h3>
                 </div>
-                <div class="choix-menu">
-                    <h3>Tartare de thon</h3>
-                    <p>Assaisonné au yuzu<span class="prix">25€</span></p>
-                    
-                </div>
+                <a class="lien-menu" href="">
+                    <div class="choix-menu">
 
-                <div class="choix-menu">
-                    <h3>Foie gras de canard mi-cuit</h3>
-                    <p>Et ses copeaux de truffe noire<span class="prix">35€</span></p>
-                    
-                </div>
-                <div class="choix-menu">
-                    <h3>Velouté de crèpes</h3>
-                    <p>Au truffes <span class="prix">20€</span></p>
-                    
-                </div>
-
-                <div class="type-plats">
-                    <h3>PLATS</h3>
-                </div>
-                <div class="choix-menu">
-                    <h3>Poulet roti aux herbes de Prove</h3>
-                    <p>Et sa crème de truffe<span class="prix">40€</span></p>
-                    
-                </div>
-                <div class="choix-menu">
-                    <h3>Langouste rotie</h3>
-                    <p>Et ses légumes de saison<span class="prix">35€</span></p>
-                    
-                </div>
-                <div class="choix-menu">
-                    <h3>Cote de boeuf Angus</h3>
-                    <p>Et sa purée de panais<span class="prix">44€</span></p>
-                    
-                </div>
-                <div class="type-plats">
-                    <h3>DESSERTS</h3>
-                </div>
-                <div class="choix-menu">
-                    <h3>Farandole de desserts</h3>
-                    <p>Du chef<span class="prix">18€</span></p>
-                    
-                </div>
-                <div class="choix-menu">
-                    <h3>Crème brulée</h3>
-                    <p>Revisitée<span class="prix">22€</span></p>
-                    
-                </div>
-                <div class="choix-menu">
-                    <h3>Tiramisu</h3>
-                    <p>A la noisette<span class="prix">23€</span></p>
-                    
-                </div>
-        </section>
-        <section>
-            <div class="section-bouton">
-                <a href="">
-                    <div class="bouton-rose">
-                        <p>Commander</p>
+                        <div class="info-plats">
+                            <h3>Tartare de thon</h3>
+                            <p>Assaisonné au yuzu</p>
+                        </div>
+                        <div class="prix">25€</div>
+                        <div class="check">
+                            <div class="cerle"><i class="fa-solid fa-check"></i></div>
+                        </div>
                     </div>
                 </a>
+                <a class="lien-menu" href="">
+                    <div class="choix-menu">
+                        <div class="info-plats">
+                            <h3>Foie gras de canard mi-cuit</h3>
+                            <p>Et ses copeaux de truffe noire</p>
+                        </div>
+                        <div class="prix">35€</div>
+                        <div class="check">
+                            <div class="cerle"><i class="fa-solid fa-check"></i></div>
+                        </div>
+                    </div>
+
+                </a>
+                <a class="lien-menu" href="">
+                    <div class="choix-menu">
+                        <div class="info-plats">
+                            <h3>Velouté de crèpes</h3>
+                            <p>Au truffes </p>
+                        </div>
+                        <div class="prix">20€</div>
+                        <div class="check">
+                            <div class="cerle"><i class="fa-solid fa-check"></i></div>
+                        </div>
+                    </div>
+            
+            </a>
+
+            <div class="type-plats">
+                <h3>PLATS</h3>
             </div>
+            <a class="lien-menu" href="">
+                <div class="choix-menu">
+                    <div class="info-plats">
+                        <h3>Poulet roti aux herbes de Prove</h3>
+                        <p>Et sa crème de truffe</p>
+
+                    </div>
+                    <div class="prix">40€</div>
+                    <div class="check">
+                        <div class="cerle"><i class="fa-solid fa-check"></i></div>
+                    </div>
+                </div>
+            </a>
+            <a class="lien-menu" href="">
+                <div class="choix-menu">
+
+
+                    <div class="info-plats">
+                        <h3>Langouste rotie</h3>
+                        <p>Et ses légumes de saison</p>
+                    </div>
+                    <div class="prix">35€</div>
+                    <div class="check">
+                        <div class="cerle"><i class="fa-solid fa-check"></i></div>
+                    </div>
+                </div>
+            </a>
+            <a class="lien-menu" href="">
+                <div class="choix-menu">
+                    <div class="info-plats">
+                        <h3>Cote de boeuf Angus</h3>
+                        <p>Et sa purée de panais</p>
+
+                    </div>
+                    <div class="prix">44€</div>
+                    <div class="check">
+                        <div class="cerle"><i class="fa-solid fa-check"></i></div>
+                    </div>
+                </div>
+            </a>
+            <div class="type-plats">
+                <h3>DESSERTS</h3>
+            </div><a class="lien-menu" href="">
+                <div class="choix-menu">
+                    <div class="info-plats">
+                        <h3>Farandole de desserts</h3>
+                        <p>Du chef</p>
+                    </div>
+                    <div class="prix">18€</div>
+                    <div class="check">
+                        <div class="cerle"><i class="fa-solid fa-check"></i></div>
+                    </div>
+                </div>
+            </a>
+
+<a class="lien-menu" href="">
+            <div class="choix-menu">
+                
+                    <div class="info-plats">
+                        <h3>Crème brulée</h3>
+                        <p>Revisitée</p>
+                    </div>
+                    <div class="prix">22€</div>
+                    <div class="check">
+                        <div class="cerle"><i class="fa-solid fa-check"></i></div>
+                    </div>
+            </div>
+            </a>
+            <a class="lien-menu" href="">
+                <div class="choix-menu">
+
+                    <div class="info-plats">
+                        <h3>Tiramisu</h3>
+                        <p>A la noisette</p>
+                        
+                    </div><div class="prix">23€</div>
+                    <div class="check">
+                        <div class="cerle"><i class="fa-solid fa-check"></i></div>
+                    </div>
+                </div>
+            </a>
+        </div>
+        </section>
+        <section><a class="lien-menu" href="">
+            <div class="section-bouton">
+                
+                    <div class="bouton-rose">
+                        <p>Commander</p>
+                    </div></div>
+                </a>
+            
         </section>
 
     </main>

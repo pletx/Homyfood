@@ -4,10 +4,15 @@
     to   { transform: translateY(0%);
     opacity: 1; }
   }
-  
+.lien-menu{opacity: 0;
+    @for $i from 1 through 13{
+        &:nth-child(#{$i}){ animation-delay:100ms*$i;}
+    }
+   animation: apparition 1s forwards;}
+
 .choix-menu {
     
-    animation: apparition 3s;
+ 
     position: relative;
     display: flex;
     margin-top: 12px;
@@ -45,10 +50,6 @@
                 from { width:0; }
                 to   { width: 100px; }
               
-              }
-              @keyframes rotation {
-                from { transform:rotate(180°); }
-                to   { transform:rotate(0) }
               }
               animation: 0.25s slide;
               
