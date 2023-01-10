@@ -46,10 +46,32 @@
             background-color: #9356DC;
             margin: 28px 0 28px -12px;
             color: white;
-            
+            box-shadow: none;
 
         }
 
 
     }
 }
+@media screen and (min-width:992px) { 
+.fonctionnement {
+    display: flex;
+    flex-wrap: wrap;
+
+
+    .groupe-bouton-fonctionnement {
+        width: 100%;
+        display: flex;
+        flex-direction: row;
+        margin-left: 36px;
+    }
+
+    article {
+        margin-right: 24px;
+        width: 30%;
+    }
+
+    h2 {
+        width: 100%;
+    }
+}}

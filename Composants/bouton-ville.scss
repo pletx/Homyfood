@@ -16,3 +16,12 @@
     }
 
 }
+@media screen and (min-width:992px) {
+    .bouton-ville {
+        display: flex;
+        justify-content: center;
+        background-color: #EAEAEA;
+        padding-top: 16px;
+        padding-bottom: 16px;
+    }
+}

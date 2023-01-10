@@ -1,27 +1,6 @@
-@keyframes apparition {
-    from {
-        transform: translateY(50%);
-        opacity: 0;
-    }
 
-    to {
-        transform: translateY(0%);
-        opacity: 1;
-    }
-}
-@keyframes slide {
-    from {
-        width: 0;
-    }
-
-    to {
-        width: 100px;
-    }
-
-}
 .lien-menu {
     opacity: 0;
-
     @for $i from 1 through 13 {
         &:nth-child(#{$i}) {
             animation-delay: 100ms*$i;
@@ -58,7 +37,7 @@
             border-radius: 50%;
             height: fit-content;
             padding:2px;
-            animation: 1s rotation;
+            animation: 0.25s rotation;
         }
 
         i {
