@@ -1,0 +1,16 @@
+.bouton-rose {
+    display: flex;
+    border-color: black;
+    background: linear-gradient(to top, #9356DC, #FF79DA);
+    border-radius: 25px;
+    width: fit-content;
+    align-self: center;
+    box-shadow: 1px 1px 3px rgb(184, 184, 184);;
+    p {
+        padding: 15px;
+        margin: 0;
+        color: #EAEAEA;
+    }
+    :hover{box-shadow: 3px 3px 8px rgb(184, 184, 184);
+        border-radius: 25px;}
+}
