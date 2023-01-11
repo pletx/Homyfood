@@ -1,0 +1,28 @@
+$resolution-tablette:800px;
+.bouton-ville {
+    display: flex;
+    justify-content: center;
+    background-color: #EAEAEA;
+    padding: 20px;
+    text-decoration: none;
+    
+    input {
+        border: hidden;
+        background-color: #EAEAEA;
+        :focus{border: hidden;}
+    }
+
+    i {
+        margin-right: 5px;
+    }
+
+}
+@media screen and (min-width:$resolution-tablette) {
+    .bouton-ville {
+        display: flex;
+        justify-content: center;
+        background-color: #EAEAEA;
+        padding-top: 16px;
+        padding-bottom: 16px;
+    }
+}

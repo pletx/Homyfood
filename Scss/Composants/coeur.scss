@@ -1,0 +1,29 @@
+.coeur {
+    display: flex;
+    position: relative;
+    float: right;
+    margin-right: 25px;
+    font-size: 25px;
+    cursor: pointer;
+
+    .animation-coeur {
+        position: absolute;
+        align-self: center;
+        transform: scale(0);
+    }
+
+    &:hover {
+        .animation-coeur {
+            position: absolute;
+            align-self: center;
+            transform: scale(1.1);
+            transition-property: transform;
+            transition-duration: 500ms;
+            color: #FF79DA;
+            
+
+        }
+
+
+    }
+}
