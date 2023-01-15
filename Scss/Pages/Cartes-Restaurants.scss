@@ -4,6 +4,7 @@ $resolution-tablette:800px;
     width: auto;
     padding-top: 54px;
     background-color: #F7F7F7;
+    a{width: 25%;}
 
     .carte-restaurant {
         transition: all 2s;
@@ -23,9 +24,6 @@ $resolution-tablette:800px;
             display: flex;
             flex-direction: column;
             margin-left: 13px;
-            .zone-like{background-color: #99E2D0;
-                width: 100%;
-                &:visited{background-color:red;}}
         }
         i{display: flex;}
         
@@ -65,7 +63,7 @@ $resolution-tablette:800px;
         }
 
         .carte-restaurant {
-            width: 25%;
+           
             margin-left: 26px;
         }
     }
