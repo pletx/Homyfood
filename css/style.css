@@ -511,6 +511,7 @@ footer h2 img {
 }
 footer ul {
   margin: 0;
+  color: #ffffff;
 }
 footer ul li {
   list-style-type: none;
@@ -518,9 +519,6 @@ footer ul li {
 }
 footer ul li :hover {
   color: aqua;
-}
-footer ul li a {
-  color: #ffffff;
 }
 footer ul li i {
   margin-right: 11px;
