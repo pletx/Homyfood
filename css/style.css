@@ -511,6 +511,8 @@ footer h2 img {
 }
 footer ul {
   margin: 0;
+}
+footer ul a {
   color: #ffffff;
 }
 footer ul li {
@@ -527,6 +529,13 @@ footer ul li i {
 @media screen and (min-width: 800px) {
   footer {
     margin-top: 7px;
+  }
+  footer .contenu-footer {
+    display: flex;
+    flex-direction: row-reverse;
+  }
+  footer .contenu-footer h2 {
+    padding-top: 20px;
   }
   footer ul {
     padding-right: 40px;
