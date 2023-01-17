@@ -52,7 +52,7 @@ $resolution-tablette:800px;
 }
 @media screen and (min-width:$resolution-tablette) {
     .Restaurants {
-        width: fit-content;
+       
         display: flex;
         flex-direction: row;
         flex-wrap: wrap;

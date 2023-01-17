@@ -294,7 +294,6 @@ body {
 
 @media screen and (min-width: 800px) {
   .Restaurants {
-    width: fit-content;
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
@@ -342,7 +341,6 @@ body {
   align-items: center;
   justify-content: center;
   padding: 40px 0 40px 0;
-  background-color: #F7F7F7;
 }
 
 .type-plats {
@@ -535,9 +533,6 @@ footer ul li i {
 }
 
 @media screen and (min-width: 800px) {
-  footer {
-    margin-top: 7px;
-  }
   footer .contenu-footer {
     display: flex;
     flex-direction: row-reverse;
