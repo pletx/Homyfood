@@ -308,6 +308,7 @@ body {
   }
 }
 .image-aceuille {
+  object-fit: cover;
   width: 100%;
   height: 275px;
 }

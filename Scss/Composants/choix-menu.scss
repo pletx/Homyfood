@@ -6,13 +6,12 @@
             animation-delay: 100ms*$i;
         }
     }
-
     animation: apparition 1s forwards;
 }
 
 .choix-menu {
 
-
+    
     position: relative;
     display: flex;
     margin-top: 12px;
