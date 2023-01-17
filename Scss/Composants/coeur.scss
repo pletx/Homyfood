@@ -10,6 +10,7 @@
         position: absolute;
         align-self: center;
         transform: scale(0);
+        
     }
 
     &:hover {
@@ -19,7 +20,7 @@
             transform: scale(1.1);
             transition-property: transform;
             transition-duration: 500ms;
-            color: #FF79DA;
+            color:#FF79DA;
             
 
         }

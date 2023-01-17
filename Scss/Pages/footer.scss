@@ -13,6 +13,8 @@ footer {
         font-size: 18px;
         font-weight: 700;
         font-style: italic;
+        margin-left:35px;
+        margin-bottom: 15px;
 
         img {
             height: 27px;
@@ -49,7 +51,6 @@ footer {
     ul {
         padding-right: 40px;
         display: flex;
-        flex-direction: row-reverse;
         padding: 20px;
 
         li {

@@ -73,6 +73,8 @@ html h3 {
 .logo .fa-arrow-left {
   float: left;
   margin: -44px 300px 1px 0px;
+  left: 23px;
+  position: absolute;
 }
 .logo img {
   width: 162px;
@@ -108,6 +110,9 @@ body {
     font-size: 40px;
     font-weight: 700;
     margin-bottom: 18px;
+  }
+  .fa-arrow-left {
+    left: 75px;
   }
 }
 .bouton-rose {
@@ -504,6 +509,8 @@ footer h2 {
   font-size: 18px;
   font-weight: 700;
   font-style: italic;
+  margin-left: 35px;
+  margin-bottom: 15px;
 }
 footer h2 img {
   height: 27px;
@@ -540,7 +547,6 @@ footer ul li i {
   footer ul {
     padding-right: 40px;
     display: flex;
-    flex-direction: row-reverse;
     padding: 20px;
   }
   footer ul li {
