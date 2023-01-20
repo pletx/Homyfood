@@ -10,8 +10,6 @@
 }
 
 .choix-menu {
-
-    
     position: relative;
     display: flex;
     margin-top: 12px;
@@ -51,10 +49,10 @@
             display: flex;
             transition: transform 1s;
             animation: 0.25s slide;
-
-
         }
     }
+
+   
 
     a {
         width: 100%;
