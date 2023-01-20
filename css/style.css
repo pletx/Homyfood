@@ -42,7 +42,7 @@
   margin-right: 5px;
 }
 
-@media screen and (min-width: 800px) {
+@media screen and (min-width: 900px) {
   .bouton-ville {
     display: flex;
     justify-content: center;
@@ -102,7 +102,7 @@ body {
   margin: 0;
 }
 
-@media screen and (min-width: 800px) {
+@media screen and (min-width: 900px) {
   .logo {
     align-self: center;
   }
@@ -292,11 +292,14 @@ body {
   justify-content: center;
 }
 
-@media screen and (min-width: 800px) {
+@media screen and (min-width: 900px) {
   .Restaurants {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
+  }
+  .Restaurants h2 {
+    margin-left: 27px;
   }
   .Restaurants .liste-carte-restaurant {
     width: 100%;
@@ -353,7 +356,7 @@ body {
   margin-top: 40px;
 }
 
-@media screen and (min-width: 800px) {
+@media screen and (min-width: 900px) {
   .image-aceuille {
     height: 423px;
   }
@@ -421,10 +424,13 @@ body {
   box-shadow: none;
 }
 
-@media screen and (min-width: 800px) {
+@media screen and (min-width: 900px) {
   .fonctionnement {
     display: flex;
     flex-wrap: wrap;
+  }
+  .fonctionnement h2 {
+    margin-left: 36px;
   }
   .fonctionnement .groupe-bouton-fonctionnement {
     width: 100%;
@@ -532,7 +538,7 @@ footer ul li i {
   margin-right: 11px;
 }
 
-@media screen and (min-width: 800px) {
+@media screen and (min-width: 900px) {
   footer .contenu-footer {
     display: flex;
     flex-direction: row-reverse;

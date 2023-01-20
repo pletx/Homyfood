@@ -1,4 +1,4 @@
-$resolution-tablette:800px;
+$resolution-tablette:900px;
 .Restaurants {
     padding: 0 17px;
     width: auto;
@@ -52,11 +52,10 @@ $resolution-tablette:800px;
 }
 @media screen and (min-width:$resolution-tablette) {
     .Restaurants {
-       
         display: flex;
         flex-direction: row;
         flex-wrap: wrap;
-
+h2{margin-left: 27px;}
         .liste-carte-restaurant {
             width: 100%;
             display: flex;

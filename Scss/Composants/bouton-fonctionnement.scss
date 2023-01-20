@@ -1,4 +1,4 @@
-$resolution-tablette:800px;
+$resolution-tablette:900px;
 .fonctionnement {
     padding: 48px 20px 68px 20px;
 
@@ -58,7 +58,7 @@ $resolution-tablette:800px;
 .fonctionnement {
     display: flex;
     flex-wrap: wrap;
-
+    h2{margin-left: 36px;}
 
     .groupe-bouton-fonctionnement {
         width: 100%;

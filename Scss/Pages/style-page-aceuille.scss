@@ -1,4 +1,4 @@
-$resolution-tablette:800px;
+$resolution-tablette:900px;
 html {
     font-family: "Roboto";
     padding: 0;
@@ -15,7 +15,6 @@ html {
 }
 }
 .logo {
-   
     width: 100%;
     display: flex;
     align-items: center;
@@ -60,6 +59,7 @@ body {
 @media screen and (min-width:$resolution-tablette) { 
 
 .logo{align-self: center;}
+
 .text-aceuille {
     h2 {
         font-size: 40px;
