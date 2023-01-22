@@ -187,11 +187,11 @@ body {
 }
 .choix-menu .check {
   display: flex;
-  display: none;
   align-content: center;
   background-color: #99E2D0;
   width: 100px;
   float: right;
+  transition: transform 1s;
   border-radius: 0 15px 15px 0;
   align-content: center;
   justify-content: center;
@@ -203,15 +203,21 @@ body {
   border-radius: 50%;
   height: fit-content;
   padding: 2px;
-  animation: 0.25s rotation;
+  animation: 0.5s rotation;
 }
 .choix-menu .check i {
   color: #99E2D0;
 }
 .choix-menu:hover .check {
-  display: flex;
-  transition: transform 1s;
-  animation: 0.25s slide;
+  transition: width 0.5s;
+  width: 100px;
+}
+.choix-menu:not(:hover) .check {
+  transition: width 0.25s;
+  width: 0px;
+}
+.choix-menu:not(:hover) .check .cerle {
+  display: none;
 }
 .choix-menu a {
   width: 100%;
@@ -490,14 +496,6 @@ body {
   to {
     transform: translateY(0%);
     opacity: 1;
-  }
-}
-@keyframes slide {
-  from {
-    width: 0;
-  }
-  to {
-    width: 100px;
   }
 }
 footer {
