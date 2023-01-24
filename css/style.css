@@ -177,6 +177,9 @@ body {
 .lien-menu:nth-child(13) {
   animation-delay: 1300ms;
 }
+.lien-menu:nth-child(14) {
+  animation-delay: 1400ms;
+}
 
 .choix-menu {
   position: relative;
@@ -319,7 +322,6 @@ body {
 }
 
 .section-choix {
-  max-width: 1055px;
   position: relative;
   display: flex;
   flex-direction: column;

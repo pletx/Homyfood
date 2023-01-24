@@ -1,7 +1,7 @@
 
 .lien-menu {
     opacity: 0;
-    @for $i from 1 through 13 {
+    @for $i from 1 through 14 {
         &:nth-child(#{$i}) {
             animation-delay: 100ms*$i;
         }
