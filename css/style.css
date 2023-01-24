@@ -252,6 +252,9 @@ body {
   padding-top: 54px;
   background-color: #F7F7F7;
 }
+.Restaurants a {
+  width: 25%;
+}
 .Restaurants .carte-restaurant {
   position: relative;
   border-radius: 15px;
@@ -300,13 +303,9 @@ body {
   }
   .Restaurants .liste-carte-restaurant {
     width: 100%;
-    padding-left: 190px;
     display: flex;
-    white-space: nowrap;
-    overflow: scroll;
   }
   .Restaurants .carte-restaurant {
-    width: 310px;
     margin-left: 26px;
   }
 }

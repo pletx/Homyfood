@@ -4,7 +4,7 @@ $resolution-tablette:900px;
     width: auto;
     padding-top: 54px;
     background-color: #F7F7F7;
-    
+    a{width: 25%;}
 
     .carte-restaurant {
         position: relative;
@@ -55,12 +55,10 @@ h2{margin-left: 27px;}
         .liste-carte-restaurant {
             width: 100%;
             display: flex;
-            white-space: nowrap;
-            overflow: scroll;
         }
 
         .carte-restaurant {
-           width: 310px;
+            
             margin-left: 26px;
         }
     }
