@@ -22,6 +22,7 @@
   border-color: #fff transparent #fff transparent;
   animation: rotation 0.5s ease-in-out;
   animation-iteration-count: 8;
+  position: fixed;
 }
 
 .bouton-ville {
@@ -130,6 +131,7 @@ body {
   color: #EAEAEA;
 }
 .bouton-rose :hover {
+  background: linear-gradient(200.64deg, #a475de -5.2%, #f89bde 110.74%);
   box-shadow: 3px 3px 8px rgb(184, 184, 184);
   border-radius: 25px;
 }
@@ -482,7 +484,7 @@ body {
 @keyframes dispparition {
   to {
     opacity: 0;
-    scale: 0;
+    transform: scale(0,0);
   }
 }
 @keyframes apparition {

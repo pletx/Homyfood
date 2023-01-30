@@ -1,4 +1,5 @@
-$resolution-tablette:900px;
+$resolution-tablette: 900px;
+
 html {
     font-family: "Roboto";
     padding: 0;
@@ -6,14 +7,16 @@ html {
     a {
         text-decoration: none;
         color: black;
-       
-     
+
+
     }
+
     h3 {
-    margin: 0;
-    padding: 0;
+        margin: 0;
+        padding: 0;
+    }
 }
-}
+
 .logo {
     width: 100%;
     display: flex;
@@ -24,8 +27,8 @@ html {
         float: left;
         margin: -44px 300px 1px 0px;
         left: 23px;
-position: absolute;
-        
+        position: absolute;
+
     }
 
     img {
@@ -56,17 +59,22 @@ body {
         margin: 0;
     }
 }
-@media screen and (min-width:$resolution-tablette) { 
 
-.logo{align-self: center;}
+@media screen and (min-width:$resolution-tablette) {
 
-.text-aceuille {
-    h2 {
-        font-size: 40px;
-        font-weight: 700;
-        margin-bottom: 18px;
+    .logo {
+        align-self: center;
+    }
+
+    .text-aceuille {
+        h2 {
+            font-size: 40px;
+            font-weight: 700;
+            margin-bottom: 18px;
+        }
+    }
+
+    .fa-arrow-left {
+        left: 75px;
     }
 }
-.fa-arrow-left{
-    left: 75px;
-}}
